@@ -101,7 +101,7 @@ class Student
     sql = <<-SQL
       SELECT *
       FROM students
-      LIMIT num
+      LIMIT ?
       WHERE grade = 10
     SQL
   
